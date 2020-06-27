@@ -1,0 +1,15 @@
+import requests 
+
+  r = requests.get('https://en.wikipedia.org/wiki/Dragon_Ball')
+  
+    print(r.text)
+
+
+# after that show you more coding this is for a write your page , if u want to save file follow me this code
+
+
+file.open ('https://en.wikipedia.org/wiki/Dragon_Ball')
+
+file.write(r.text)
+
+file.close
